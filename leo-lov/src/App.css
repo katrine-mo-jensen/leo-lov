@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Jura&display=swap");
+
 * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+}
+h2 {
+  font-family: 'Jura', sans-serif;
+  color: #002BC2;
+}
+p {
+  font-family: 'Inter', sans-serif;
 }
