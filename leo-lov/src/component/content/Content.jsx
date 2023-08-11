@@ -5,7 +5,7 @@ export function Content() {
     <>
       <section>
         <img
-          src="#"
+          src="../../assets/money.jpg"
           alt="Person with a lot of monopoly cash and and expensive watch"
         />
         <article>
