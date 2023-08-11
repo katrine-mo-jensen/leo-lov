@@ -19,7 +19,10 @@ export function Navbar() {
           </li>
         </ul>
       </nav>
-      <img src="#" alt="LeoLov logo" />
+      <div>
+        <h2>Leo</h2>
+        <span>-Lov</span>
+      </div>
     </section>
   );
 }

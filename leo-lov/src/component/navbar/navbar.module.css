@@ -1,3 +1,27 @@
-nav {
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  align-items: center;
+}
+section nav {
   font-family: "Inter", sans-serif;
+  color: #002bc2;
+  font-size: 0.8rem;
+  max-width: 1280px;
+}
+section nav ul {
+  display: flex;
+  gap: 20px;
+}
+section nav ul li {
+  list-style-type: none;
+}
+section nav ul li a {
+  text-decoration: none;
+  color: #002bc2;
+}
+section div {
+  display: flex;
 }/*# sourceMappingURL=navbar.module.css.map */
