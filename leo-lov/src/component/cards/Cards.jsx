@@ -2,7 +2,8 @@ import style from "./cards.module.scss";
 
 export function Cards() {
   return (
-    <section>
+    <section className={style.cards}>
+      <div className={style.wrapper}>
       <article>
         <h2>Familieret</h2>
         <p>
@@ -35,6 +36,7 @@ export function Cards() {
           ved en masse om dette så henvend dig i dag.
         </p>
       </article>
+      </div>
     </section>
   );
 }

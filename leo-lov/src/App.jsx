@@ -1,4 +1,3 @@
-
 import './App.css'
 import { Navbar } from './component/navbar/Navbar'
 import { Header } from './component/header/Header'
@@ -15,7 +14,7 @@ function App() {
       <Header/>
       <Cards/>
       <Content/>
-      <Footer/>
+      <Footer/> 
     </>
   )
 }

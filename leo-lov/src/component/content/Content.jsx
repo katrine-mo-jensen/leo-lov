@@ -1,13 +1,12 @@
 import style from "./content.module.scss";
+import building from '../../assets/building.jpg'
+import money from '../../assets/money.jpg'
 
 export function Content() {
   return (
     <>
-      <section>
-        <img
-          src="../../assets/money.jpg"
-          alt="Person with a lot of monopoly cash and and expensive watch"
-        />
+      <section className={style.content}>
+      <img src={money} alt="" />
         <article>
           <h2>Intet problem</h2>
           <p>
@@ -21,7 +20,7 @@ export function Content() {
           </p>
         </article>
       </section>
-      <section>
+      <section className={style.content}>
         <article>
           <h2>Her bor vi</h2>
           <p>
@@ -33,7 +32,7 @@ export function Content() {
             Det er sådan vi har skabt en forretning der ikke kan andet end at
             vokse!
           </p>
-          <img src="#" alt="Picture of a tall, black, glass building" />
+          <img src={building} alt="" />
         </article>
       </section>
     </>

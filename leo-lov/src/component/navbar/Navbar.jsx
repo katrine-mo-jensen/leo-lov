@@ -2,7 +2,7 @@ import style from "./navbar.module.scss";
 
 export function Navbar() {
   return (
-    <section>
+    <section className={style.navSection}>
       <nav>
         <ul>
           <li>

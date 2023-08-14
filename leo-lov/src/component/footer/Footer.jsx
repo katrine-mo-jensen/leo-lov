@@ -3,6 +3,7 @@ import style from "./footer.module.scss";
 export function Footer() {
   return (
     <footer>
+      <div className={style.footerWrapper}>
       <article>
         <h2>Adresse</h2>
         <p>Find os her:</p>
@@ -31,9 +32,10 @@ export function Footer() {
       </article>
       <article>
         <h2>Sociale medier</h2>
-        <img src="#" alt="Logo/link to Facebook" />
+        <i class="fa-brands fa-facebook"></i>
         <img src="#" alt="Logo/link to LinkedIn" />
       </article>
+      </div>
     </footer>
   );
 }
