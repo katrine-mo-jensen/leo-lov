@@ -1,7 +1,24 @@
 .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 596px 596px;
+  grid-template-rows: 530px;
   width: 1192px;
+  border: 5px solid #2c3b6f;
+  margin-top: 200px;
   img {
-    max-width: 600px;
+    max-width: 100%; 
+    object-fit: cover;
+  }
+  article {
+    text-align: center;
+    width: 600px;
+   
+    h2 {
+      padding: 40px;
+    }
+    p {
+      padding: 20px;
+    
+    }
   }
 }
